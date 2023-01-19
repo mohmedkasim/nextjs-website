@@ -104,9 +104,7 @@ export default function Home() {
                 Creating elegant designs suited for your needs design theory.
               </p>
               <h4 className="py-4 text-teal-600">Design tools I use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Adobe XD</p>
+              <img src="https://skillicons.dev/icons?i=photoshop,illustrator,xd" width={"50%"} height="300" className="mx-auto"/>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 content-center dark:bg-white">
               <Image src={code} width={100} height={100} className="mx-auto" />
