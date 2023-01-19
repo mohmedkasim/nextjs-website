@@ -69,13 +69,15 @@ export default function Home() {
             <AiFillYoutube />
             <AiFillLinkedin />
           </div>
-          <div className="relative mx-auto mt-20 overflow-hidden rounded-full bg-gradient-to-b from-teal-500 w-80 h-80 md:h-96 md:w-96">
+          <div className="relative mx-auto mt-20 overflow-hidden rounded-full bg-gradient-to-b from-green-900 w-80 h-80 md:h-96 md:w-96">
             <Image src={deved} layout="fill" objectFit="cover" />
           </div>
         </section>
         <section>
           <div>
-            <h3 className="text-4xl py-1 dark:text-white pt-20 text-center font-bold">Services I offer</h3>
+            <h3 className="text-4xl py-1 dark:text-white pt-20 text-center font-bold">
+              Services I offer
+            </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white max-w-xl text-center mx-auto">
               Since the beginning of my journey as a freelance desiner and
               developer, I've done remote work for
@@ -97,14 +99,19 @@ export default function Home() {
                 height={100}
                 className="mx-auto"
               />
-              <h3 className="text-lg font-medium pt-8 pb-2">
+              <h3 className="text-3xl pt-8 pb-2 font-bold">
                 Beautiful Designs
               </h3>
               <p className="py-2">
                 Creating elegant designs suited for your needs design theory.
               </p>
               <h4 className="py-4 text-teal-600">Design tools I use</h4>
-              <img src="https://skillicons.dev/icons?i=photoshop,illustrator,xd" width={"50%"} height="300" className="mx-auto"/>
+              <img
+                src="https://skillicons.dev/icons?i=photoshop,illustrator,xd"
+                width={"50%"}
+                height="300"
+                className="mx-auto"
+              />
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 content-center dark:bg-white">
               <Image src={code} width={100} height={100} className="mx-auto" />
