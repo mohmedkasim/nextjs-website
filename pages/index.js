@@ -1,6 +1,11 @@
 import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
-import { AiFillLinkedin, AiFillInstagram, AiFillGithub } from "react-icons/ai";
+import {
+  AiFillLinkedin,
+  AiFillInstagram,
+  AiFillGithub,
+  AiOutlineDribbbleSquare,
+} from "react-icons/ai";
 import Image from "next/image";
 import deved from "../public/dev-ed-wave.png";
 import design from "../public/design.png";
@@ -64,6 +69,7 @@ export default function Home() {
             <AiFillGithub />
             <AiFillInstagram />
             <AiFillLinkedin />
+            <AiOutlineDribbbleSquare />
           </div>
           <div className="relative mx-auto mt-20 overflow-hidden rounded-full bg-gradient-to-b from-green-900 w-80 h-80 md:h-96 md:w-96">
             <Image src={deved} layout="fill" objectFit="cover" />
