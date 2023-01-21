@@ -85,7 +85,7 @@ export default function Home() {
             <h3 className="text-4xl py-1 dark:text-white pt-20 text-center font-bold pb-7">
               Services I offer
             </h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-white max-w-xl text-center mx-auto">
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-white max-w-3xl text-center mx-auto">
               Since the beginning of my journey as a freelance desiner and
               developer, I've done remote work for
               <span className="text-teal-500"> agencies</span> consulted for
