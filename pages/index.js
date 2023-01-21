@@ -10,12 +10,12 @@ import deved from "../public/dev-ed-wave.png";
 import design from "../public/design.png";
 import code from "../public/code.png";
 import cons from "../public/consulting.png";
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
+import web1 from "../public/mobile_design1.png";
+import web2 from "../public/mobile_design2.png";
+import web3 from "../public/mobile_design3.png";
+import web4 from "../public/mobile_design4.png";
+import web5 from "../public/website_design1.png";
+import web6 from "../public/website_design2.jpg";
 import { useState } from "react";
 
 export default function Home() {
