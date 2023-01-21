@@ -109,31 +109,41 @@ export default function Home() {
                 className="mx-auto"
               />
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 content-center dark:bg-white">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 content-center dark:bg-white max-w-full">
               <Image src={code} width={100} height={100} className="mx-auto" />
-              <h3 className="text-lg font-medium pt-8 pb-2">
-                Beautiful Designs
+              <h3 className="text-3xl pt-8 pb-2 font-bold">
+                Better UI code practise
               </h3>
-              <p className="py-2">
-                Creating elegant designs suited for your needs design theory.
-              </p>
-              <h4 className="py-4 text-teal-600">Design tools I use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Adobe XD</p>
+              <p className="py-2">Writing code with standard OOP.</p>
+              <h4 className="py-4 text-teal-600">Framework I use</h4>
+              <img
+                src="https://skillicons.dev/icons?i=flutter,react,visualstudio"
+                width={"60%"}
+                height="300"
+                className="mx-auto"
+              />
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 content-center dark:bg-white">
               <Image src={cons} width={100} height={100} className="mx-auto" />
-              <h3 className="text-lg font-medium pt-8 pb-2">
-                Beautiful Designs
-              </h3>
+              <h3 className="text-3xl font-bold pt-8 pb-2">Good planning</h3>
               <p className="py-2">
-                Creating elegant designs suited for your needs design theory.
+                Flexiable design a plan to emplement project with team.
               </p>
-              <h4 className="py-4 text-teal-600">Design tools I use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Adobe XD</p>
+              <h4 className="py-4 text-teal-600">tools I use</h4>
+              <div className="flex justify-center">
+                <img
+                  src="https://skillicons.dev/icons?i=git,github"
+                  width={"30%"}
+                  height="40"
+                  className=""
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg"
+                  width="55"
+                  height="45"
+                  className="mx-2"
+                />
+              </div>
             </div>
           </div>
         </section>
