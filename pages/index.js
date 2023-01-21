@@ -82,7 +82,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-4xl py-1 dark:text-white pt-20 text-center font-bold">
+            <h3 className="text-4xl py-1 dark:text-white pt-20 text-center font-bold pb-7">
               Services I offer
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white max-w-xl text-center mx-auto">
