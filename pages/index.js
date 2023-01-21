@@ -71,8 +71,13 @@ export default function Home() {
             <AiFillLinkedin />
             <AiOutlineDribbbleSquare />
           </div>
-          <div className="relative mx-auto mt-20 overflow-hidden rounded-full bg-gradient-to-b from-green-900 w-80 h-80 md:h-96 md:w-96">
-            <Image src={deved} layout="fill" objectFit="cover" />
+          <div class="w-80 h-80 md:h-96 md:w-96 relative cursor-pointer mb-5 mx-auto mt-20 hover:scale-110 transition ">
+            <div class="absolute inset-0 bg-gradient-to-r from-cyan-500 to-teal-500 opacity-25 rounded-3xl shadow-2xl"></div>
+            <div class="absolute inset-0 transform  hover:rotate-12 transition duration-300">
+              <div class="h-full w-full bg-gradient-to-r from-cyan-500 to-teal-500 rounded-3xl shadow-2xl">
+                <Image src={deved} layout="fill" objectFit="cover" />
+              </div>
+            </div>
           </div>
         </section>
         <section>
