@@ -160,18 +160,21 @@ export default function Home() {
         </section>
         <section>
           <div className="dark:text-white">
-            <h3 className="text-3xl py-1">Portfolio</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-              Since the beginning of my journey as a freelance desiner and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies</span> consulted for
-              <span class="text-teal-500"> startups</span> and collaborated with
-              talanted people to create digital products for both business and
-              consumer use.
+            <h3 className="text-3xl py-1 text-center font-bold pt-20">
+              Portfolio
+            </h3>
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-white pt-10 max-w-xl text-center mx-auto">
+              I have previous work in design UI/UX for mobiles and website apps
+              uploaded in
+              <span className="text-teal-500"> dribbble</span> and you can
+              follow me on
+              <span class="text-teal-500"> Instagram</span> for contact and
+              sharing ideas and I will be happy to share with you some
+              experiences.
             </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-              I offer from a wide range of services, including brand design,
-              programming & teaching.
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-white max-w-xl text-center mx-auto">
+              I offer from a wide range of product design, including UI design,
+              logo design & some art.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
